@@ -2,7 +2,7 @@ import json
 import openai
 from termcolor import colored
 from halo import Halo
-# from utils.utils import get_openai_key, calculate_openai_cost
+from chess_query_ai.utils import get_openai_key, calculate_openai_cost
 
 def get_openai_key():
     with open("../keys.json", "r") as file:

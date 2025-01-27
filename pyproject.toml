@@ -1,0 +1,22 @@
+[project]
+name = "chess-query-ai"
+version = "0.1.0"
+description = "AI Chess recommendation using LLMs."
+authors = [
+    {name = "AlexLee09",email = "alexandrekmlee@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "termcolor (>=2.5.0,<3.0.0)",
+    "halo (>=0.0.31,<0.0.32)",
+    "openai (>=1.60.1,<2.0.0)"
+]
+
+packages = [
+    { include = "chess_query_ai" }
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
