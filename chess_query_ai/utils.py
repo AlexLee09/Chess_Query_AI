@@ -3,7 +3,7 @@ from termcolor import colored
 import json
 
 def get_openai_key():
-    with open("../keys.json", "r") as file:
+    with open("./chess_query_ai/data/keys.json", "r") as file:
         keys = json.load(file)
     return keys["openai_key"]
 

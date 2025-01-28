@@ -1,1 +1,7 @@
-Answer this question: would you recommend the london system opening, and why?
+As an experienced chess grandmaster and coach, answer this question:
+
+FEN: 
+rnbqkbnr/pp1p1p1p/2p3p1/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 0 4
+
+Question:
+ What do you suggest as the best move here and why?
